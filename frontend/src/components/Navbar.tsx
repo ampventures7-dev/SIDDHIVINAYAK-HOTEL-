@@ -68,7 +68,7 @@ export function Navbar() {
     },
     {
       href: '/reports',
-      label: lang === 'hi' ? 'P&L वित्तीय रिपोर्ट' : 'P&L Reports',
+      label: lang === 'hi' ? 'लाभ-हानि (Profit & Loss) रिपोर्ट' : 'Profit & Loss Reports',
       icon: BarChart3,
     },
   ];

@@ -235,7 +235,7 @@ export default function ReportsPage() {
         <div>
           <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-indigo-600 mb-1">
             <BarChart3 className="w-4 h-4" />
-            <span>{lang === 'hi' ? 'वित्तीय विश्लेषण एवं लाभ-हानि रिपोर्ट' : 'Financial Analysis & P&L'}</span>
+            <span>{lang === 'hi' ? 'वित्तीय विश्लेषण एवं लाभ-हानि रिपोर्ट' : 'Financial Analysis & Profit and Loss'}</span>
           </div>
           <h1 className="text-2xl font-black text-slate-900">
             {lang === 'hi' ? 'वित्तीय रिपोर्ट एवं विश्लेषण' : 'Financial Reports & Analytics'}

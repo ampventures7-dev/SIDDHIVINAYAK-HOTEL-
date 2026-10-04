@@ -9,7 +9,8 @@ import {
   Room, 
   StaffMember, 
   AssetInventory, 
-  RoomStatus 
+  RoomStatus,
+  RoomOrderItem 
 } from '@/types/database';
 import { INITIAL_BOOKINGS, INITIAL_PAYMENTS, INITIAL_EXPENSES } from '@/data/mockData';
 import { translations, Language } from '@/lib/translations';

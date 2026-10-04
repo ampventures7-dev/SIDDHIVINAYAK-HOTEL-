@@ -6,7 +6,7 @@ import { MobileBottomNav } from "@/components/MobileBottomNav";
 
 export const metadata: Metadata = {
   title: "HOTEL SIDDHIVINAYAK - Hotel & Banquet Management System (HMS)",
-  description: "Complete operations software for Hotel Siddhivinayak: 25 Room PMS, Marriage Garden Bookings, Cashflow Ledger, Staff Attendance, and P&L Reports.",
+  description: "Complete operations software for Hotel Siddhivinayak: 25 Room PMS, Marriage Garden Bookings, Cashflow Ledger, Staff Attendance, and Profit & Loss Reports.",
 };
 
 export const viewport: Viewport = {
@@ -22,8 +22,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="h-full antialiased overflow-x-hidden max-w-full">
-      <body className="min-h-full w-full max-w-full overflow-x-hidden flex flex-col bg-slate-50 text-slate-900 font-sans selection:bg-indigo-600 selection:text-white">
+    <html lang="en" suppressHydrationWarning className="h-full antialiased overflow-x-hidden max-w-full">
+      <body suppressHydrationWarning className="min-h-full w-full max-w-full overflow-x-hidden flex flex-col bg-slate-50 text-slate-900 font-sans selection:bg-indigo-600 selection:text-white">
         <AppProvider>
           <Navbar />
           <main className="flex-1 w-full max-w-full min-w-0 overflow-x-hidden pb-24 md:pb-8">{children}</main>
